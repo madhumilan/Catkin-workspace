@@ -1,0 +1,8 @@
+prefix=/home/madhu/catkin_ws/install
+
+Name: topic_subscriber
+Description: Description of topic_subscriber
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

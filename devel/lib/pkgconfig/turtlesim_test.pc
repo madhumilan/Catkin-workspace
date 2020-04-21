@@ -1,0 +1,8 @@
+prefix=/home/madhu/catkin_ws/devel
+
+Name: turtlesim_test
+Description: Description of turtlesim_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
