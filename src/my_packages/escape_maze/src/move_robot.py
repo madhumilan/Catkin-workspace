@@ -12,10 +12,10 @@ class MoveRobot:
 		self.move_msg.linear.x = linear
 		self.move_msg.linear.y = angular
 		self.pub.publish(self.move_msg)
-		rospy.loginfo("MessagePublished")
+		#rospy.loginfo("MessagePublished")
 
-if __name__ == '__main__':
-	rospy.init_node('escape_maze')
-	moveRobot_obj = MoveRobot()
-	moveRobot_obj.send_cmd(0.3,0)
+#if __name__ == '__main__':
+#	rospy.init_node('escape_maze')
+#	moveRobot_obj = MoveRobot()
+#	moveRobot_obj.send_cmd(0.3,0)
 
